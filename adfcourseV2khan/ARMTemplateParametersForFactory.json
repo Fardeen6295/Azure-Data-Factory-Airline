@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfcourseV2khan"
+		},
+		"airport_sql_db_password": {
+			"value": ""
+		},
+		"datalakekhan_accountKey": {
+			"value": ""
+		},
+		"on_prem_files_password": {
+			"value": ""
+		},
+		"airport_sql_db_properties_typeProperties_server": {
+			"value": "airportdbadfv2.database.windows.net"
+		},
+		"airport_sql_db_properties_typeProperties_database": {
+			"value": "airportdbV2"
+		},
+		"airport_sql_db_properties_typeProperties_userName": {
+			"value": "adminkhan"
+		},
+		"datalakekhan_properties_typeProperties_url": {
+			"value": "https://datalakekhan.dfs.core.windows.net/"
+		},
+		"ls_git_csvs_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
+		},
+		"on_prem_files_properties_typeProperties_host": {
+			"value": "C:\\ADFCourseFiles"
+		},
+		"on_prem_files_properties_typeProperties_userId": {
+			"value": "fardeenkhanbieng@gmail.com"
+		}
+	}
+}
