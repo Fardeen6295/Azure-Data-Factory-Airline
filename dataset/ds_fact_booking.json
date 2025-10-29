@@ -1,0 +1,13 @@
+{
+	"name": "ds_fact_booking",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "airport_sql_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

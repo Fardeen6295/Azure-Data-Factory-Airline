@@ -1,0 +1,6 @@
+{
+	"name": "khan-selfhosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

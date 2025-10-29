@@ -1,0 +1,19 @@
+{
+	"name": "GetGitFile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_git_csvs",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "Fardeen6295/Retail_Chain_Store_Data_Insights/refs/heads/main/DimAirport.json"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
